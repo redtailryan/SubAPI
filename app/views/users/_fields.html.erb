@@ -14,3 +14,5 @@
 
 <%= f.label :password_confirmation, "Confirm Password" %>
 <%= f.password_field :password_confirmation %>
+
+<%= f.check_box :admin, {:hidden => true, :checked => true}, "true", "false"%>
