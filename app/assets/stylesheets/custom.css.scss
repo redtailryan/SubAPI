@@ -12,6 +12,14 @@ $grayMediumLight: #eaeaea;
 
 /* universal */
 
+.form-label {
+  float: left;
+}
+
+.form-align {
+  margin-bottom: 10px;
+}
+
 html {
   overflow-y: scroll;
 }
